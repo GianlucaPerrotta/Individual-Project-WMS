@@ -19,7 +19,7 @@ import os
 def main_logo():
     os.system('clear')
     print('')
-    tprint("WMS")
+    tprint("Lucaland.Inc")
     print('Warehouse management system')
     print('')
     print('copyright luca.Inc 2022 all rights are reserved')
@@ -231,6 +231,7 @@ def menu_3():
     print('Thanks for stopping by. I hope you bought something or ill rm -rf you next time')
     global app_run
     app_run = False
+    
 
 # Show the menu and ask to pick a choice
 
@@ -244,6 +245,8 @@ def option_menu():
         print('')
         clear_screen()
         print('failed to enter numerical characters from 1 - 3. Try again dude')
+
+
 while app_run == True:
     option_menu()
 
